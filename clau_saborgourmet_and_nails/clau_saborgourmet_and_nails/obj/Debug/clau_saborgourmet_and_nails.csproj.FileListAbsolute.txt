@@ -1,0 +1,24 @@
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe.config
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.pdb
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmMenu.resources
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frm_splash.resources
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.Properties.Resources.resources
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.exe
+C:\Users\Aluno\Desktop\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.pdb
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe.config
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.pdb
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.AssemblyReference.cache
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmMenu.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frm_splash.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.Properties.Resources.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.GenerateResource.cache
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.CoreCompileInputs.cache
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.exe
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.pdb
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmSaborGourmetHome.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmsaborGourmetProdutos.resources

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmEncomendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEncomendas.Designer.cs">
+      <DependentUpon>frmEncomendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManicureHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManicureHome.Designer.cs">
+      <DependentUpon>frmManicureHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     <Compile Include="frmSaborGourmetHome.Designer.cs">
       <DependentUpon>frmSaborGourmetHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSaborGourmetVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaborGourmetVendas.Designer.cs">
+      <DependentUpon>frmSaborGourmetVendas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,20 +84,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frmsaborGourmetProdutos.cs">
+    <Compile Include="frmSaborGourmetProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmsaborGourmetProdutos.Designer.cs">
-      <DependentUpon>frmsaborGourmetProdutos.cs</DependentUpon>
+    <Compile Include="frmSaborGourmetProdutos.Designer.cs">
+      <DependentUpon>frmSaborGourmetProdutos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmEncomendas.resx">
+      <DependentUpon>frmEncomendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManicureHome.resx">
+      <DependentUpon>frmManicureHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSaborGourmetHome.resx">
       <DependentUpon>frmSaborGourmetHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmsaborGourmetProdutos.resx">
-      <DependentUpon>frmsaborGourmetProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="frmSaborGourmetProdutos.resx">
+      <DependentUpon>frmSaborGourmetProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaborGourmetVendas.resx">
+      <DependentUpon>frmSaborGourmetVendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>

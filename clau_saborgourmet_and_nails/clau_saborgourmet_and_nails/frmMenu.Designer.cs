@@ -34,19 +34,25 @@
             this.btnSaborGourmetHome = new System.Windows.Forms.Button();
             this.btnManicureHome = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(233, 82);
+            this.label1.Location = new System.Drawing.Point(266, 29);
+            this.label1.MaximumSize = new System.Drawing.Size(529, 32);
+            this.label1.MinimumSize = new System.Drawing.Size(529, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 32);
+            this.label1.Size = new System.Drawing.Size(529, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "O que deseja acessar?";
             // 
@@ -61,11 +67,11 @@
             this.tableLayoutPanel1.Controls.Add(this.btnSaborGourmetHome, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnManicureHome, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnSair, 2, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 371);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 398);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 97F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(754, 97);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(881, 97);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // btnSaborGourmetHome
@@ -77,7 +83,7 @@
             this.btnSaborGourmetHome.Font = new System.Drawing.Font("Consolas", 15.75F);
             this.btnSaborGourmetHome.Location = new System.Drawing.Point(3, 3);
             this.btnSaborGourmetHome.Name = "btnSaborGourmetHome";
-            this.btnSaborGourmetHome.Size = new System.Drawing.Size(245, 91);
+            this.btnSaborGourmetHome.Size = new System.Drawing.Size(287, 91);
             this.btnSaborGourmetHome.TabIndex = 0;
             this.btnSaborGourmetHome.Text = "Sabor Gourmet";
             this.btnSaborGourmetHome.UseVisualStyleBackColor = false;
@@ -90,12 +96,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnManicureHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
             this.btnManicureHome.Font = new System.Drawing.Font("Consolas", 15.75F);
-            this.btnManicureHome.Location = new System.Drawing.Point(254, 3);
+            this.btnManicureHome.Location = new System.Drawing.Point(296, 3);
             this.btnManicureHome.Name = "btnManicureHome";
-            this.btnManicureHome.Size = new System.Drawing.Size(245, 91);
+            this.btnManicureHome.Size = new System.Drawing.Size(287, 91);
             this.btnManicureHome.TabIndex = 1;
             this.btnManicureHome.Text = "Manicure";
             this.btnManicureHome.UseVisualStyleBackColor = false;
+            this.btnManicureHome.Click += new System.EventHandler(this.btnManicureHome_Click);
             // 
             // btnSair
             // 
@@ -104,23 +111,37 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
             this.btnSair.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(505, 3);
+            this.btnSair.Location = new System.Drawing.Point(589, 3);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(246, 91);
+            this.btnSair.Size = new System.Drawing.Size(289, 91);
             this.btnSair.TabIndex = 2;
             this.btnSair.Text = "Sai&r";
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Location = new System.Drawing.Point(15, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(875, 333);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Image = global::clau_saborgourmet_and_nails.Properties.Resources.Logo_Clau;
-            this.pictureBox1.Location = new System.Drawing.Point(266, 130);
+            this.pictureBox1.Location = new System.Drawing.Point(257, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(245, 218);
+            this.pictureBox1.Size = new System.Drawing.Size(317, 251);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -129,20 +150,22 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 480);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(905, 507);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(562, 366);
+            this.MaximumSize = new System.Drawing.Size(921, 546);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(921, 546);
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clau saborgourmet and nails";
             this.Shown += new System.EventHandler(this.frmMenu_Shown);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -154,5 +177,6 @@
         private System.Windows.Forms.Button btnManicureHome;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -4,22 +4,23 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Hosting;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace clau_saborgourmet_and_nails
 {
-    public partial class frmMenu : Form
+    public partial class frmEncomendas : Form
     {
-        public frmMenu()
+        public frmEncomendas()
         {
             InitializeComponent();
         }
 
-        private void frmMenu_Shown(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -27,17 +28,10 @@ namespace clau_saborgourmet_and_nails
             Application.Exit();
         }
 
-        private void btnSaborGourmetHome_Click(object sender, EventArgs e)
+        private void btnVoltar_Click(object sender, EventArgs e)
         {
-            var SaborHome = new frmSaborGourmetHome();
-            SaborHome.Show();
-            this.Close();
-        }
-
-        private void btnManicureHome_Click(object sender, EventArgs e)
-        {
-            var ManicureHome = new frmManicureHome();
-            ManicureHome.Show();
+            var previousForm = new frmSaborGourmetHome();
+            previousForm.Show();
             this.Close();
         }
     }

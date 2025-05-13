@@ -22,3 +22,6 @@ D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_a
 D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.pdb
 D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmSaborGourmetHome.resources
 D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmsaborGourmetProdutos.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmSaborGourmetVendas.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmEncomendas.resources
+D:\Trabalhos\DS\TITIA DO MATHEUS\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmManicureHome.resources

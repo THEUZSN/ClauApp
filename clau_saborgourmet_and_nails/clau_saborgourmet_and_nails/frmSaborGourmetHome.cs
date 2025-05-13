@@ -29,9 +29,9 @@ namespace clau_saborgourmet_and_nails
 
         private void btnProdutos_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            var sgProdutos = new frmsaborGourmetProdutos();
-            sgProdutos.ShowDialog();
+            this.Close();
+            var sgProdutos = new frmSaborGourmetProdutos();
+            sgProdutos.Show();
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
@@ -39,6 +39,18 @@ namespace clau_saborgourmet_and_nails
             var previousForm = new frmMenu();
             previousForm.Show();
             this.Close();
+        }
+
+        private void btnVendas_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var sgVendas = new frmSaborGourmetVendas();
+            sgVendas.Show();
+        }
+
+        private void btnEncomendas_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

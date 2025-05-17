@@ -50,7 +50,9 @@ namespace clau_saborgourmet_and_nails
 
         private void btnEncomendas_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            var sgVendas = new frmEncomendas();
+            sgVendas.Show();
         }
     }
 }

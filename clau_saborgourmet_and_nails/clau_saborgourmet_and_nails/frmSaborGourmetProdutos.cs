@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace clau_saborgourmet_and_nails
 {
-    public partial class frmSaborGourmetProdutos : Form
+    public partial class frmsaborGourmetProdutos : Form
     {
-        public frmSaborGourmetProdutos()
+        public frmsaborGourmetProdutos()
         {
             InitializeComponent();
         }

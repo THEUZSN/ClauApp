@@ -30,7 +30,7 @@ namespace clau_saborgourmet_and_nails
         private void btnProdutos_Click(object sender, EventArgs e)
         {
             this.Close();
-            var sgProdutos = new frmSaborGourmetProdutos();
+            var sgProdutos = new frmsaborGourmetProdutos();
             sgProdutos.Show();
         }
 

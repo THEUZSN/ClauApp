@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSaborGourmetHome));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnEncomendas = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
             this.btnVendas = new System.Windows.Forms.Button();
             this.btnProdutos = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnEncomendas = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,6 +76,21 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(860, 104);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // btnEncomendas
+            // 
+            this.btnEncomendas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEncomendas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
+            this.btnEncomendas.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEncomendas.Location = new System.Drawing.Point(519, 3);
+            this.btnEncomendas.Name = "btnEncomendas";
+            this.btnEncomendas.Size = new System.Drawing.Size(166, 98);
+            this.btnEncomendas.TabIndex = 4;
+            this.btnEncomendas.Text = "Encomendas";
+            this.btnEncomendas.UseVisualStyleBackColor = false;
+            this.btnEncomendas.Click += new System.EventHandler(this.btnEncomendas_Click);
+            // 
             // btnVoltar
             // 
             this.btnVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -90,21 +105,6 @@
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
-            this.btnSair.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(691, 3);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(166, 98);
-            this.btnSair.TabIndex = 0;
-            this.btnSair.Text = "Sai&r";
-            this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnVendas
             // 
@@ -136,6 +136,21 @@
             this.btnProdutos.UseVisualStyleBackColor = false;
             this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
             // 
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
+            this.btnSair.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Location = new System.Drawing.Point(691, 3);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(166, 98);
+            this.btnSair.TabIndex = 0;
+            this.btnSair.Text = "Sai&r";
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -150,25 +165,11 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // btnEncomendas
-            // 
-            this.btnEncomendas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEncomendas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(211)))), ((int)(((byte)(226)))));
-            this.btnEncomendas.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEncomendas.Location = new System.Drawing.Point(519, 3);
-            this.btnEncomendas.Name = "btnEncomendas";
-            this.btnEncomendas.Size = new System.Drawing.Size(166, 98);
-            this.btnEncomendas.TabIndex = 4;
-            this.btnEncomendas.Text = "Encomendas";
-            this.btnEncomendas.UseVisualStyleBackColor = false;
-            this.btnEncomendas.Click += new System.EventHandler(this.btnEncomendas_Click);
-            // 
             // frmSaborGourmetHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(188)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(890, 477);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);

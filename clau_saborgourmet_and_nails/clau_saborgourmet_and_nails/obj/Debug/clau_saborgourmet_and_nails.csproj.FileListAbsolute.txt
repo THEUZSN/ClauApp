@@ -41,3 +41,19 @@ C:\Users\Aluno\Documents\Nova pasta\ClauApp\clau_saborgourmet_and_nails\clau_sab
 C:\Users\Aluno\Documents\Nova pasta\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe.config
 C:\Users\Aluno\Documents\Nova pasta\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe
 C:\Users\Aluno\Documents\Nova pasta\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.pdb
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe.config
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.exe
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\bin\Debug\clau_saborgourmet_and_nails.pdb
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmEncomendas.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmManicureHome.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmMenu.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmSaborGourmetHome.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmsaborGourmetProdutos.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmSaborGourmetVendas.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frm_splash.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.Properties.Resources.resources
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.exe
+C:\Users\Aluno\Desktop\homunculos\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.pdb

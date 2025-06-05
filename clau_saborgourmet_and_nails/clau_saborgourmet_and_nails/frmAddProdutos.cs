@@ -10,29 +10,22 @@ using System.Windows.Forms;
 
 namespace clau_saborgourmet_and_nails
 {
-    public partial class frmsaborGourmetProdutos : Form
+    public partial class frmAddProdutos : Form
     {
-        public frmsaborGourmetProdutos()
+        public frmAddProdutos()
         {
             InitializeComponent();
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
-            var previousForm = new frmSaborGourmetHome();
+            var previousForm = new frmsaborGourmetProdutos();
             previousForm.Show();
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var newForm = new frmAddProdutos();
-            newForm.Show();
             this.Close();
         }
     }

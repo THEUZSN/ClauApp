@@ -34,5 +34,12 @@ namespace clau_saborgourmet_and_nails
             previousForm.Show();
             this.Close();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            var nextForm = new frmAddEncomenda();
+            nextForm.Show();
+            this.Close();
+        }
     }
 }

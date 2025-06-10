@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddEncomenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEncomenda.Designer.cs">
+      <DependentUpon>frmAddEncomenda.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAddProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAddProdutos.Designer.cs">
       <DependentUpon>frmAddProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddVendas.Designer.cs">
+      <DependentUpon>frmAddVendas.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEncomendas.cs">
       <SubType>Form</SubType>
@@ -96,8 +108,14 @@
     <Compile Include="frmSaborGourmetProdutos.Designer.cs">
       <DependentUpon>frmSaborGourmetProdutos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmAddEncomenda.resx">
+      <DependentUpon>frmAddEncomenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddProdutos.resx">
       <DependentUpon>frmAddProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddVendas.resx">
+      <DependentUpon>frmAddVendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEncomendas.resx">
       <DependentUpon>frmEncomendas.cs</DependentUpon>

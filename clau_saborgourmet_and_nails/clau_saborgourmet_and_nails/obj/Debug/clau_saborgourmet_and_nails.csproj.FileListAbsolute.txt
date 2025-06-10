@@ -90,3 +90,5 @@ C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and
 C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.exe
 C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.pdb
 C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmAddProdutos.resources
+C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmAddVendas.resources
+C:\Users\Aluno\Desktop\ClauApp\clau_saborgourmet_and_nails\clau_saborgourmet_and_nails\obj\Debug\clau_saborgourmet_and_nails.frmAddEncomenda.resources

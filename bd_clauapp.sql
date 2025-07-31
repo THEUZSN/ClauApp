@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17-Jun-2025 às 18:56
+-- Tempo de geração: 31-Jul-2025 às 19:55
 -- Versão do servidor: 10.4.21-MariaDB
 -- versão do PHP: 7.3.31
 
@@ -98,7 +98,7 @@ CREATE TABLE `encomenda_has_produto` (
 CREATE TABLE `produto` (
   `ID_PRODUTO` int(11) NOT NULL,
   `NM_PRODUTO` varchar(45) NOT NULL,
-  `PRECO` decimal(3,2) NOT NULL,
+  `PRECO` decimal(6,2) NOT NULL,
   `TIPO` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
